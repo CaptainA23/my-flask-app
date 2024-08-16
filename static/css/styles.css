@@ -1,0 +1,76 @@
+/* Set the neon gradient background for the entire page */
+body {
+    background: linear-gradient(135deg, #00f260, #0575e6); /* Neon green to neon blue gradient */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Ensure footer stays at bottom */
+}
+
+/* Style the card */
+.card {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ffffff; /* White card background */
+    border: 1px solid #dee2e6; /* Light border for card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Card title and icons */
+.card-title {
+    color: #007bff; /* Blue color for title */
+}
+
+.card-title i {
+    color: #007bff; /* Blue color for icons */
+}
+
+/* Style the result text */
+#result {
+    font-size: 1.25em;
+    color: #343a40; /* Dark gray color for result */
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff; /* Primary blue color */
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #004085;
+}
+
+/* Modal styling */
+.modal-content {
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+}
+
+.modal-header {
+    background-color: #007bff; /* Blue background for modal header */
+    color: #ffffff; /* White text for modal header */
+    text-align: center; /* Center text in modal header */
+}
+
+.modal-body {
+    text-align: center; /* Center text in modal body */
+    padding: 2rem; /* Increase padding for better spacing */
+}
+
+.modal-footer {
+    background-color: #f8f9fa; /* Light gray background for footer */
+}
+
+/* Footer styling */
+.footer {
+    background-color: #f8f9fa; /* Light gray background for footer */
+    color: #6c757d; /* Muted text color */
+    text-align: center;
+    padding: 1rem 0;
+}
+
